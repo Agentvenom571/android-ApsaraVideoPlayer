@@ -140,24 +140,7 @@ public class AliYunPlayerUtil {
         jniDownloader.start();
     }
 
-    /**
-     * 文件加密
-     *
-     * @param context
-     * @param encryptPath 加密文件的路径
-     */
-    public void encry(Context context, String encryptPath) {
-        PrivateService.initService(context, encryptPath + "encryptedApp.dat");
-    }
-
-    /**
-     * 是否循环播放
-     */
-    public void setLoop(AliPlayer mAliPlayer,boolean loop){
-        if(mAliPlayer != null){
-            mAliPlayer.setLoop(loop);
-        }
-    }
+    
     /**
      * 删除下载的文件
      * vid 和 format 是下载后就要有的
