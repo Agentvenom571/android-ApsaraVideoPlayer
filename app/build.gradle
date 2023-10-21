@@ -68,10 +68,6 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project (':AliyunVideoCommon')
-    implementation project (':Aliyunplayer:player_demo')
-    implementation project (':AliyunListPlayer')
-    implementation project (':AliyunLiveShiftPlayer')
-    implementation project (':AliyunPlayerBase')
     implementation externalAndroidAppCompatV7
     implementation externalAndroidSupportV4
     implementation externalAndroidRecyclerView
